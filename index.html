@@ -339,12 +339,12 @@
             </div>
           </article>
 
-          <!-- Project 2: Enterprise Process Discovery -->
+         <!-- Project 2: Enterprise Process Discovery -->
           <article class="card">
             <div class="card-header">
               <h3 class="card-title">
                 <a href="https://github.com/megzin11/enterprise-process-discovery-pm4py" target="_blank" rel="noopener">
-                  Enterprise P2P Process Discovery &amp; Bottleneck Analysis
+                  Enterprise P2P Process Discovery &amp; Conformance Benchmark
                 </a>
               </h3>
               <a class="repo-link" href="https://github.com/megzin11/enterprise-process-discovery-pm4py" target="_blank" rel="noopener">
@@ -352,21 +352,21 @@
               </a>
             </div>
             <p class="card-desc">
-              Automated process mining pipeline built with PM4Py to reconstruct Procure-to-Pay (P2P) workflows from enterprise ERP XES event logs. Extracts Petri net control-flow models and throughput profiles to expose rework loops, approval delays, and compliance bottlenecks hidden behind aggregate BI dashboards.
+              Modular PM4Py pipeline with C-accelerated streaming XML projection (eliminating 728 MB XES memory crashes), pre-mining Shannon variant entropy profiling, head-to-head Petri net conformance benchmarking (Inductive vs. Heuristics Miner), and vectorized transition bottleneck analysis.
             </p>
             <div class="metric-box">
-              <strong>Benchmark Dataset:</strong> Validated on the public BPI Challenge 2019 Procure-to-Pay event log with automated Petri net model generation via Graphviz.
+              <strong>BPI Challenge 2019 Benchmark (1.6M Events / 251,734 Cases):</strong> Streaming parse in 34.0s &amp; <strong>165.1 ms cached reload (206&times; speedup)</strong> &middot; Top-10 variants cover 59.45% (Heuristics F1: <strong>0.9828</strong>, Inductive-0.2 Simplicity: <strong>0.7647</strong>) &middot; Isolated 36.1-day AP clearing bottleneck across 134,955 transitions &middot; 7/7 Pytest cases passing.
             </div>
             <div class="tags">
               <span class="tag">Python</span>
               <span class="tag">PM4Py</span>
-              <span class="tag">XES Logs</span>
+              <span class="tag">Streaming XML</span>
+              <span class="tag">Conformance (TBR)</span>
               <span class="tag">Pandas</span>
-              <span class="tag">Graphviz</span>
-              <span class="tag">Matplotlib</span>
+              <span class="tag">Pytest</span>
             </div>
           </article>
-
+          
           <!-- Project 3: Industrial IoT MLOps -->
           <article class="card">
             <div class="card-header">
